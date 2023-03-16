@@ -13,7 +13,9 @@ body {
 .menu {
     width: 20%;
     height: 80vh;
-    background-color: aqua;
+    color: white;
+    background-color: black;
+    overflow-y: scroll;
 }
 
 .contenedor {
@@ -93,4 +95,35 @@ body {
 .iconoBuscar {
     margin-left: 10px;
     color: beige;
+}
+
+.logoImg {
+    width: 100%;
+    padding: 4px;
+}
+
+.logoImg:hover {
+    cursor: pointer;
+}
+
+.bandera {
+    width: 33%;
+}
+
+.paises {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.renglon {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.columna {
+    display: flex;
+    flex-direction: column!important;
 }
